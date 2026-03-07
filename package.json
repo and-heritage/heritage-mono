@@ -1,0 +1,38 @@
+{
+  "name": "hsg-minlaw-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MinLaw Heritage Monorepo",
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm -r --parallel run dev",
+    "dev:payload": "pnpm --filter @hsg/payload dev",
+    "dev:svelte": "pnpm --filter @hsg/svelte dev",
+    "build": "pnpm -r run build",
+    "build:payload": "pnpm --filter @hsg/payload build",
+    "build:svelte": "pnpm --filter @hsg/svelte build",
+    "lint": "pnpm -r run lint",
+    "typecheck": "pnpm -r run typecheck",
+    "clean": "pnpm -r run clean && rm -rf node_modules",
+    "format": "prettier --write \"**/*.{ts,tsx,svelte,js,json,md}\""
+  },
+  "devDependencies": {
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.3"
+  },
+  "engines": {
+    "node": ">=20.9.0",
+    "pnpm": ">=9.0.0"
+  },
+  "packageManager": "pnpm@9.15.0",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "sharp",
+      "esbuild",
+      "unrs-resolver"
+    ]
+  },
+  "volta": {
+    "node": "20.19.4"
+  }
+}
