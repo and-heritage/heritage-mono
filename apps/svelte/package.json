@@ -28,6 +28,7 @@
     "vite": "^7.3.1"
   },
   "dependencies": {
+    "@hsg/shared-types": "workspace:*",
     "@sveltejs/adapter-auto": "^7.0.1",
     "aos": "^2.3.4",
     "leaflet": "^1.9.4",
