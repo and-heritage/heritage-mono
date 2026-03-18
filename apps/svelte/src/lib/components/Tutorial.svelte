@@ -71,7 +71,7 @@
 {#if tutorialState.isOpen}
   <div
     transition:fade={{ duration: 400 }}
-    class="fixed z-[9999] top-0 right-0 w-dvw h-dvh bg-[#120D0D]/70 flex items-center justify-center backdrop-blur-lg"
+    class="fixed z-[9999] top-0 right-0 w-dvw h-dvh bg-[#0A0A14]/80 flex items-center justify-center backdrop-blur-lg"
   >
     <div
       transition:fade={{ duration: 400 }}
@@ -84,16 +84,8 @@
 
       "
     >
-      <img
-        class="block absolute md:hidden -z-20 top-0"
-        src="/assets/images/paper_card_mobile.svg"
-        alt=""
-      />
-      <img
-        class="hidden absolute md:block -z-20 top-0"
-        src="/assets/images/paper_card.svg"
-        alt=""
-      />
+      <!-- Dark theme background -->
+      <div class="absolute inset-0 -z-20 bg-main-dark-secondary rounded-2xl border border-main-accent/30"></div>
       <div
         class="flex flex-col justify-start md:justify-center h-full pt-[100px] lg:pt-[150px] px-5 md:px-[80px] lg:px-[120px]"
       >
@@ -111,17 +103,17 @@
         </div>
         <div class="flex flex-col items-center gap-1">
           <h1
-            class="text-[36px] lg:text-[49px] italic text-main-brown font-averia"
+            class="text-[36px] lg:text-[49px] italic text-white font-averia"
           >
             Tutorial
           </h1>
         </div>
-        <hr />
+        <hr class="border-white/20" />
         <!-- nav buttons -->
         <button
           onclick={next}
-          class={`z-50 cursor-pointer absolute right-0 md:right-[30px] top-1/2 -translate-y-1/2  
-          ${activeIndex === totalSlides.length - 1 ? "pointer-events-none text-gray-300" : "text-main-brown"}
+          class={`z-50 cursor-pointer absolute right-0 md:right-[30px] top-1/2 -translate-y-1/2
+          ${activeIndex === totalSlides.length - 1 ? "pointer-events-none text-gray-600" : "text-main-accent"}
           `}
         >
           <span class="text-[60px]! material-symbols-rounded">
@@ -130,8 +122,8 @@
         </button>
         <button
           onclick={prev}
-          class={`z-50 cursor-pointer absolute left-0 md:left-[30px] top-1/2 -translate-y-1/2 
-            ${activeIndex === 0 ? "pointer-events-none text-gray-300" : "text-main-brown"}
+          class={`z-50 cursor-pointer absolute left-0 md:left-[30px] top-1/2 -translate-y-1/2
+            ${activeIndex === 0 ? "pointer-events-none text-gray-600" : "text-main-accent"}
           `}
         >
           <span class="text-[60px]! material-symbols-rounded">
@@ -149,7 +141,7 @@
               class="relative flex flex-col h-full justify-start mt-5 gap-5 items-center"
             >
               <p
-                class="text-center"
+                class="text-center text-white/90"
                 data-aos-delay={`${d(0)}`}
                 data-aos="fade-in"
               >
@@ -167,7 +159,7 @@
                   <MainButton square color="white">
                     <span class="material-symbols-outlined"> volume_up </span>
                   </MainButton>
-                  <p class="w-[150px] text-center">Sound On / Off Button</p>
+                  <p class="w-[150px] text-center text-white/80">Sound On / Off Button</p>
                 </div>
                 <div
                   class="flex flex-col items-center w-[50px] gap-5"
@@ -177,7 +169,7 @@
                   <MainButton square color="white">
                     <span class="material-symbols-outlined"> refresh </span>
                   </MainButton>
-                  <p class="w-[150px] text-center text-wrap">Reset Position</p>
+                  <p class="w-[150px] text-center text-wrap text-white/80">Reset Position</p>
                 </div>
                 <div
                   class="flex flex-col items-center w-[50px] gap-5"
@@ -187,7 +179,7 @@
                   <MainButton square color="white">
                     <span class="material-symbols-outlined"> refresh </span>
                   </MainButton>
-                  <p class="w-[150px] text-center">Zoom In</p>
+                  <p class="w-[150px] text-center text-white/80">Zoom In</p>
                 </div>
                 <div
                   class="flex flex-col items-center w-[50px] gap-5"
@@ -197,7 +189,7 @@
                   <MainButton square color="white">
                     <span class="material-symbols-outlined"> refresh </span>
                   </MainButton>
-                  <p class="w-[150px] text-center">Zoom Out</p>
+                  <p class="w-[150px] text-center text-white/80">Zoom Out</p>
                 </div>
               </div>
             </swiper-slide>
@@ -207,7 +199,7 @@
               class="relative flex flex-col h-fit justify-start mt-5 gap-5 items-center"
             >
               <p
-                class="text-center"
+                class="text-center text-white/90"
                 data-aos-delay={`${d(0)}`}
                 data-aos="fade-in"
               >
@@ -229,7 +221,7 @@
               <!-- mobile -->
               <div class="flex md:hidden w-full flex-wrap justify-center gap-3">
                 <div
-                  class="flex flex-col items-center w-[200px] gap-5 text-center"
+                  class="flex flex-col items-center w-[200px] gap-5 text-center text-white/80"
                   data-aos="fade-in"
                   data-aos-delay={`${d(1)}`}
                 >
@@ -240,7 +232,7 @@
                   Rotate your device to view the heritage trail in landscape format
                 </div>
                 <div
-                  class="flex flex-col items-center w-[200px] gap-5"
+                  class="flex flex-col items-center w-[200px] gap-5 text-white/80"
                   data-aos="fade-in"
                   data-aos-delay={`${d(2)}`}
                 >
@@ -256,7 +248,7 @@
               class="relative flex flex-col h-fit justify-start mt-5 gap-5 items-center"
             >
               <p
-                class="text-center"
+                class="text-center text-white/90"
                 data-aos-delay={`${d(0)}`}
                 data-aos="fade-in"
               >
@@ -264,7 +256,7 @@
               </p>
               <div class="flex w-full flex-wrap justify-center gap-10">
                 <div
-                  class="flex flex-col items-center w-[200px] gap-5"
+                  class="flex flex-col items-center w-[200px] gap-5 text-white/80"
                   data-aos="fade-in"
                   data-aos-delay={`${d(1)}`}
                 >
@@ -275,7 +267,7 @@
                   Started Button
                 </div>
                 <div
-                  class="flex flex-col items-center w-[200px] gap-5"
+                  class="flex flex-col items-center w-[200px] gap-5 text-white/80"
                   data-aos="fade-in"
                   data-aos-delay={`${d(2)}`}
                 >
@@ -297,8 +289,8 @@
                   onclick={() => goTo(i)}
                   class="h-2 w-8 cursor-pointer rounded-full hovered {activeIndex ===
                   i
-                    ? 'bg-main-yellow'
-                    : 'bg-gray-300 hover:bg-main-yellow/70'}"
+                    ? 'bg-main-accent'
+                    : 'bg-gray-600 hover:bg-main-accent/70'}"
                 ></button>
               {/each}
             </div>

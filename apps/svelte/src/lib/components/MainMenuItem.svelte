@@ -19,18 +19,16 @@
 <a
   onclick={() => menuState.close()}
   {href}
-  class={`relative group hover:text-main-yellow hovered  
-${isActive ? "text-main-yellow" : "text-white"}
+  class={`relative group hover:text-main-accent hovered
+${isActive ? "text-main-accent" : "text-white"}
 `}
 >
-
-    <img
-    class={`absolute w-20 hovered -translate-x-2 opacity-0 group-hover:opacity-100 group-hover:translate-x-2 ${isActive ? "opacity-100 ": 'opacity-0'}`}
-    src="/assets/icons/arrow_yellow.svg"
-    alt=""
-  />
-  <div class={`w-full flex items-start gap-2 hovered group-hover:ml-24  ${isActive ? "ml-24" : ""}`}>
-      <span class="font-source-sans text-[24px] leading-6">{no}</span>
+    <!-- Accent arrow indicator -->
+    <div
+    class={`absolute w-6 h-1 hovered -translate-x-2 opacity-0 group-hover:opacity-100 group-hover:translate-x-2 bg-main-accent rounded-full top-1/2 -translate-y-1/2 ${isActive ? "opacity-100 ": 'opacity-0'}`}
+  ></div>
+  <div class={`w-full flex items-start gap-2 hovered group-hover:ml-12  ${isActive ? "ml-12" : ""}`}>
+      <span class="font-source-sans text-[24px] leading-6 text-main-accent">{no}</span>
       <span class="leading-[50px]"> {text} </span>
     </div>
 </a>

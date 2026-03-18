@@ -28,24 +28,21 @@
       translate-x-6
       md:odd:-translate-x-0
       md:translate-x-0
-
-
   "
 >
   <a
     {href}
-    class={`bg-[#F1F1F1] flex flex-col z-10 p-5 relative shadow-2xl  hover:scale-120 hover:opacity-100! group-hover:opacity-50
+    class={`bg-main-dark-secondary flex flex-col z-10 p-5 relative shadow-2xl rounded-lg border border-main-accent/20 hover:scale-120 hover:opacity-100! hover:border-main-accent/50 group-hover:opacity-50
   transition-all ease-in-out duration-200 ${className}
-    -translate-y-0 
-    
+    -translate-y-0
     `}
   >
-    <!-- <div class="absolute w-full h-full top-0 left-0 opacity-0 bg-main-brown z-[9999]"></div> -->
-    <img src={pin} class="w-[60px] absolute -top-[41px] right-0" alt="" />
+    <!-- Night theme accent dot -->
+    <div class="w-4 h-4 rounded-full bg-main-accent absolute -top-2 right-4 shadow-lg shadow-main-accent/50"></div>
 
-    <img src={img} class="w-full h-45 object-cover" alt="" />
+    <img src={img} class="w-full h-45 object-cover rounded" alt="" />
     <h1
-      class="font-caveat font-bold text-main-brown text-[28px] h-full w-full flex justify-center items-center text-center"
+      class="font-caveat font-bold text-white text-[28px] h-full w-full flex justify-center items-center text-center"
     >
       {text}
     </h1>

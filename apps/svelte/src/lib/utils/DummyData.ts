@@ -1,87 +1,499 @@
 export const locations = [
+  // HIGHLIGHT EXPERIENCES
   {
     id: 1,
-    name: "Court of Judicature at Maxwell's House",
-    subname: "The First Official Courthouse",
-    coords: [1500, 1700],
-    category: "Healthcare",
-    year: "1910",
-    description:
-      "Founded by the Cantonese community, this was one of Singapore's first Chinese hospitals providing affordable healthcare to immigrants.",
-    models: [
-      "https://socialservicestrail.sg/upload/file/sites/673190474e016718e803270e/Former%20Social%20Welfare%20Department.glb",
-      "https://socialservicestrail.sg/upload/file/sites/673190474e016718e803270e/Former%20Social%20Welfare%20Department.glb",
-    ],
+    name: "Sky Castle",
+    subname: "by ENESS",
+    coords: [1.2996, 103.8484], // Cathay Green
+    category: "Highlight Experiences",
+    venue: "Cathay Green",
+    description: "An immersive light installation experience at Cathay Green.",
   },
   {
     id: 2,
-    name: "Court of Judicature at Maxwell's House",
-    subname: "The First Official Courthouse",
-    coords: [1600, 2900],
-    category: "Healthcare",
-    year: "1910",
-    description:
-      "Founded by the Cantonese community, this was one of Singapore's first Chinese hospitals providing affordable healthcare to immigrants.",
+    name: "Kampong Chill",
+    subname: "by YOK & SHERYO",
+    coords: [1.2905, 103.8525], // Capitol Singapore
+    category: "Highlight Experiences",
+    venue: "Capitol Singapore",
+    description: "A vibrant artistic experience at Capitol Singapore.",
   },
+  // PROJECTION MAPPING
   {
     id: 3,
-    name: "Court of Judicature at Maxwell's House",
-    subname: "The First Official Courthouse",
-    coords: [600, 3200],
-    category: "Healthcare",
-    year: "1910",
-    description:
-      "Founded by the Cantonese community, this was one of Singapore's first Chinese hospitals providing affordable healthcare to immigrants.",
+    name: "MOSAIC",
+    subname: "by JÉRÉMIE BELLOT, ENA ENO, JOSSELIN FOUCHÉ",
+    coords: [1.2927, 103.8487], // National Museum of Singapore
+    category: "Projection Mapping",
+    venue: "National Museum of Singapore",
+    description: "Stunning projection mapping on the iconic National Museum facade.",
   },
   {
     id: 4,
-    name: "Court of Judicature at Maxwell's House",
-    subname: "The First Official Courthouse",
-    coords: [650, 2200],
-    category: "Healthcare",
-    year: "1910",
-    description:
-      "Founded by the Cantonese community, this was one of Singapore's first Chinese hospitals providing affordable healthcare to immigrants.",
+    name: "Island Waters",
+    subname: "by KANGLI",
+    coords: [1.2952, 103.8521], // CHIJMES
+    category: "Projection Mapping",
+    venue: "CHIJMES",
+    description: "A captivating water-themed projection at CHIJMES.",
   },
   {
     id: 5,
-    name: "Court of Judicature at Maxwell's House",
-    subname: "The First Official Courthouse",
-    coords: [150, 1500],
-    category: "Healthcare",
-    year: "1910",
-    description:
-      "Founded by the Cantonese community, this was one of Singapore's first Chinese hospitals providing affordable healthcare to immigrants.",
+    name: "Roadside beauties and healing remedies",
+    subname: "by ADELINE KUEH",
+    coords: [1.2954, 103.8519], // CHIJMES
+    category: "Projection Mapping",
+    venue: "CHIJMES",
+    description: "An exploration of traditional healing through projection art.",
   },
   {
     id: 6,
-    name: "Court of Judicature at Maxwell's House",
-    subname: "The First Official Courthouse",
-    coords: [600, 600],
-    category: "Healthcare",
-    year: "1910",
-    description:
-      "Founded by the Cantonese community, this was one of Singapore's first Chinese hospitals providing affordable healthcare to immigrants.",
+    name: "Dari Pulau Ke Pulau (From One Island to Another)",
+    subname: "by HAFI",
+    coords: [1.2950, 103.8523], // CHIJMES
+    category: "Projection Mapping",
+    venue: "CHIJMES",
+    description: "A journey between islands told through light and projection.",
   },
   {
     id: 7,
-    name: "Court of Judicature at Maxwell's House",
-    subname: "The First Official Courthouse",
-    coords: [1100, 750],
-    category: "Healthcare",
-    year: "1910",
-    description:
-      "Founded by the Cantonese community, this was one of Singapore's first Chinese hospitals providing affordable healthcare to immigrants.",
+    name: "Awakening",
+    subname: "by TORORO.AOI",
+    coords: [1.2956, 103.8517], // CHIJMES
+    category: "Projection Mapping",
+    venue: "CHIJMES",
+    description: "An awakening of the senses through visual art.",
   },
   {
     id: 8,
-    name: "Court of Judicature at Maxwell's House",
-    subname: "The First Official Courthouse",
-    coords: [1550, 1100],
-    category: "Healthcare",
-    year: "1910",
-    description:
-      "Founded by the Cantonese community, this was one of Singapore's first Chinese hospitals providing affordable healthcare to immigrants.",
+    name: "ALIGHT Across the SEA",
+    subname: "Presented as part of ALIGHT Conference",
+    coords: [1.2983, 103.8507], // Waterloo Centre Artspace
+    category: "Projection Mapping",
+    venue: "Waterloo Centre Artspace",
+    description: "A collaborative projection mapping experience.",
+  },
+  // NIGHT LIGHTS
+  {
+    id: 9,
+    name: "CYBERSWORDFISH V2.0",
+    subname: "by YANG DERONG",
+    coords: [1.3006, 103.8451], // Plaza Singapura
+    category: "Night Lights",
+    venue: "Plaza Singapura",
+    description: "A futuristic light installation at Plaza Singapura.",
+  },
+  {
+    id: 10,
+    name: "Jiwa Laut",
+    subname: "by KAI TING AND BOON",
+    coords: [1.2942, 103.8493], // Armenian Street
+    category: "Night Lights",
+    venue: "Armenian Street",
+    description: "Soul of the sea - an oceanic light experience.",
+  },
+  {
+    id: 11,
+    name: "KU a Dreamer",
+    subname: "by TÜNG MONKEY",
+    coords: [1.2915, 103.8499], // Funan Kinetic Wall
+    category: "Night Lights",
+    venue: "Funan Kinetic Wall",
+    description: "A dreamy installation on Funan's kinetic wall.",
+  },
+  {
+    id: 12,
+    name: "Skygazers: Dreaming Into the Past and Future",
+    subname: "by SPACE OBJEKT X REZA HASNI",
+    coords: [1.2939, 103.8492], // Peranakan Museum
+    category: "Night Lights",
+    venue: "Peranakan Museum",
+    description: "A celestial journey through time at Peranakan Museum.",
+  },
+  {
+    id: 13,
+    name: "Two Sides of Our Island",
+    subname: "by LABSIXFIVE",
+    coords: [1.2935, 103.8535], // Raffles City
+    category: "Night Lights",
+    venue: "Raffles City",
+    description: "Exploring duality through light at Raffles City.",
+  },
+  {
+    id: 14,
+    name: "UTOPIA",
+    subname: "by JAHAN LOH",
+    coords: [1.2971, 103.8543], // National Design Centre
+    category: "Night Lights",
+    venue: "National Design Centre",
+    description: "A utopian vision at the National Design Centre.",
+  },
+  {
+    id: 15,
+    name: "Waves of Time: Splash On Our Skyline",
+    subname: "by MAEQZTER",
+    coords: [1.2993, 103.8547], // Bugis+
+    category: "Night Lights",
+    venue: "Bugis+",
+    description: "Temporal waves splashing across the Bugis skyline.",
+  },
+  {
+    id: 16,
+    name: "The Garden of Stories",
+    subname: "by YANG JIE",
+    coords: [1.2965, 103.8498], // Stamford Arts Centre
+    category: "Night Lights",
+    venue: "Stamford Arts Centre",
+    description: "A garden of narratives in light.",
+  },
+  // FESTIVAL VILLAGES
+  {
+    id: 17,
+    name: "Paradise Island",
+    subname: "Festival Village",
+    coords: [1.2945, 103.8490], // Armenian Street
+    category: "Festival Villages",
+    venue: "Armenian Street",
+    description: "A festive village experience on Armenian Street.",
+  },
+  {
+    id: 18,
+    name: "Retro District",
+    subname: "Festival Village",
+    coords: [1.2998, 103.8556], // Bugis Street Art Lane
+    category: "Festival Villages",
+    venue: "Bugis Street Art Lane",
+    description: "Step back in time at the Retro District.",
+  },
+  {
+    id: 19,
+    name: "SMU Arts Fest: 2560",
+    subname: "Festival Village",
+    coords: [1.2958, 103.8502], // SMU Campus Green
+    category: "Festival Villages",
+    venue: "SMU Campus Green",
+    description: "Arts festival at SMU Campus Green.",
+  },
+  // PERFORMANCES
+  {
+    id: 20,
+    name: "Nila's Shimmering Shores",
+    subname: "An Immersive Story Room Adventure",
+    coords: [1.2891, 103.8441], // Children's Museum Singapore
+    category: "Performances",
+    venue: "Children's Museum Singapore",
+    description: "An immersive story room adventure for all ages.",
+  },
+  {
+    id: 21,
+    name: "The Island Dreamer",
+    subname: "A Wander Wonder Experience",
+    coords: [1.2975, 103.8530], // Various Locations - Bras Basah.Bugis
+    category: "Performances",
+    venue: "Various Locations, Bras Basah.Bugis",
+    description: "A wandering wonder experience across the district.",
+  },
+  {
+    id: 22,
+    name: "Shadow Puppetry Bayang Series: Legends of Southeast Asia",
+    subname: "Traditional Performance",
+    coords: [1.2930, 103.8485], // National Museum of Singapore
+    category: "Performances",
+    venue: "National Museum of Singapore",
+    description: "Traditional shadow puppetry showcasing Southeast Asian legends.",
+  },
+  {
+    id: 23,
+    name: "Fortune Hands by P7:1SMA",
+    subname: "Part of Waterloo Street Stories",
+    coords: [1.2978, 103.8512], // Objectifs Courtyard
+    category: "Performances",
+    venue: "Objectifs Courtyard",
+    description: "An artistic performance at Objectifs Courtyard.",
+  },
+  {
+    id: 24,
+    name: "The Tiger Hero《武松打虎》",
+    subname: "Traditional Performance",
+    coords: [1.2888, 103.8518], // National Archives of Singapore
+    category: "Performances",
+    venue: "National Archives of Singapore",
+    description: "Classic Chinese opera performance.",
+  },
+  {
+    id: 25,
+    name: "INterSPACE",
+    subname: "Immersive Experience",
+    coords: [1.2969, 103.8528], // NAFA Campus 1 Foyer
+    category: "Performances",
+    venue: "NAFA Campus 1 Foyer",
+    description: "An inter-dimensional space experience at NAFA.",
+  },
+  {
+    id: 26,
+    name: "The Monkey King and the Uproar in the Dragon Palace",
+    subname: "《大闹龙宫》(南洋版)",
+    coords: [1.2890, 103.8520], // National Archives of Singapore
+    category: "Performances",
+    venue: "National Archives of Singapore",
+    description: "Nanyang edition of the classic Monkey King tale.",
+  },
+  {
+    id: 27,
+    name: "Our Songs, Our Stories",
+    subname: "A Community Singalong of Xinyao and Folk Music",
+    coords: [1.2968, 103.8538], // Bras Basah Complex
+    category: "Performances",
+    venue: "Bras Basah Complex",
+    description: "Community singalong featuring Xinyao and folk music.",
+  },
+  // EXPERIENTIAL PROGRAMMES
+  {
+    id: 28,
+    name: "A Date With Tradition",
+    subname: "Cultural Experience",
+    coords: [1.2963, 103.8496], // Stamford Arts Centre
+    category: "Experiential Programmes",
+    venue: "Stamford Arts Centre",
+    description: "Experience traditional arts and culture.",
+  },
+  {
+    id: 29,
+    name: "All Things Singapore (AT SG) 2025",
+    subname: "Exhibition",
+    coords: [1.2975, 103.8543], // National Library Building
+    category: "Experiential Programmes",
+    venue: "National Library Building & National Archives",
+    description: "Celebrating all things Singapore.",
+  },
+  {
+    id: 30,
+    name: "Echoes of the Bay: VR Narratives from Singapore's Shores",
+    subname: "Virtual Reality Experience",
+    coords: [1.2984, 103.8528], // LASALLE College of the Arts
+    category: "Experiential Programmes",
+    venue: "LASALLE College of the Arts",
+    description: "VR narratives exploring Singapore's coastal heritage.",
+  },
+  {
+    id: 31,
+    name: "Festival at the Fort 2025: Whispers of a Fort",
+    subname: "Heritage Experience",
+    coords: [1.2915, 103.8465], // Fort Canning Park
+    category: "Experiential Programmes",
+    venue: "Fort Canning Park",
+    description: "Discover the whispers of history at Fort Canning.",
+  },
+  {
+    id: 32,
+    name: "Light on the Hill - Island Celebrations",
+    subname: "Light Experience",
+    coords: [1.2945, 103.8456], // Wesley Methodist Church
+    category: "Experiential Programmes",
+    venue: "Wesley Methodist Church",
+    description: "Celebrating light on the historic hill.",
+  },
+  {
+    id: 33,
+    name: "Open House at Children's Museum Singapore",
+    subname: "Family Experience",
+    coords: [1.2889, 103.8439], // Children's Museum Singapore
+    category: "Experiential Programmes",
+    venue: "Children's Museum Singapore",
+    description: "Open house at the Children's Museum.",
+  },
+  {
+    id: 34,
+    name: "Sound Plot Audio Plays Series by Centre 42",
+    subname: "Part of Waterloo Street Stories",
+    coords: [1.2967, 103.8500], // Stamford Arts Centre
+    category: "Experiential Programmes",
+    venue: "Stamford Arts Centre",
+    description: "Audio plays exploring local stories.",
+  },
+  {
+    id: 35,
+    name: "The Listening Biennial, Third Edition",
+    subname: "Sound Art Exhibition",
+    coords: [1.2980, 103.8505], // Waterloo Street
+    category: "Experiential Programmes",
+    venue: "Various Locations, Waterloo Street",
+    description: "Third edition of the sound art biennial.",
+  },
+  {
+    id: 36,
+    name: "The Old Waterloo Hauntings",
+    subname: "Heritage Tour",
+    coords: [1.2985, 103.8508], // Waterloo Street
+    category: "Experiential Programmes",
+    venue: "Waterloo Street",
+    description: "Discover the haunting tales of old Waterloo.",
+  },
+  {
+    id: 37,
+    name: "Familiar Strangers by SMU-ACM",
+    subname: "Part of Waterloo Street Stories",
+    coords: [1.2961, 103.8494], // Stamford Arts Centre
+    category: "Experiential Programmes",
+    venue: "Stamford Arts Centre",
+    description: "An exploration of familiar strangers in our midst.",
+  },
+  {
+    id: 38,
+    name: "For Real Fest",
+    subname: "Festival",
+    coords: [1.2913, 103.8501], // Funan
+    category: "Experiential Programmes",
+    venue: "Funan",
+    description: "For Real Fest at Funan.",
+  },
+  {
+    id: 39,
+    name: "Outdoor Photo Exhibition by Objectifs",
+    subname: "Part of Waterloo Street Stories",
+    coords: [1.2976, 103.8510], // Objectifs Courtyard
+    category: "Experiential Programmes",
+    venue: "Objectifs Courtyard",
+    description: "Outdoor photography exhibition.",
+  },
+  // NATIONAL DAY ACTIVATIONS
+  {
+    id: 40,
+    name: "A River Reborn",
+    subname: "National Day Activation",
+    coords: [1.2905, 103.8485], // Stamford Walkway
+    category: "National Day Activations",
+    venue: "Stamford Walkway",
+    description: "Celebrating the rebirth of our river.",
+  },
+  {
+    id: 41,
+    name: "Fortune Food Paradise",
+    subname: "National Day Activation",
+    coords: [1.2979, 103.8539], // Fortune Centre
+    category: "National Day Activations",
+    venue: "Fortune Centre's Digital Billboard",
+    description: "A food paradise celebration.",
+  },
+  {
+    id: 42,
+    name: "Island of Stars",
+    subname: "National Day Activation",
+    coords: [1.2998, 103.8486], // The Cathay
+    category: "National Day Activations",
+    venue: "The Cathay",
+    description: "An island of stars at The Cathay.",
+  },
+  {
+    id: 43,
+    name: "Lepak by the River",
+    subname: "National Day Activation",
+    coords: [1.2962, 103.8542], // Bras Basah MRT Station
+    category: "National Day Activations",
+    venue: "Reflection Pool @ Bras Basah MRT Station",
+    description: "Relax by the river reflection pool.",
+  },
+  {
+    id: 44,
+    name: "Paradise of Play",
+    subname: "National Day Activation",
+    coords: [1.2987, 103.8533], // Ten Square
+    category: "National Day Activations",
+    venue: "Ten Square's Digital Billboard",
+    description: "A paradise of play for everyone.",
+  },
+  {
+    id: 45,
+    name: "Songs of Nutmeg trees",
+    subname: "National Day Activation",
+    coords: [1.3002, 103.8537], // St. Joseph's Church
+    category: "National Day Activations",
+    venue: "St. Joseph's Church",
+    description: "Musical celebration at St. Joseph's Church.",
+  },
+];
+
+// Area polygons for festival zones
+export const areaPolygons = [
+  {
+    id: "museum-zone",
+    name: "Museum Zone",
+    color: "#3b82f6", // blue
+    coordinates: [
+      [1.2993648792682961, 103.84483388505743],
+      [1.2963919620561342, 103.844436068319],
+      [1.295676075114983, 103.84406808783672],
+      [1.294254243507723, 103.84429683246134],
+      [1.2922619295360391, 103.84833029504233],
+      [1.2958033195245804, 103.85018502394144],
+      [1.2966866767054768, 103.85106860723653],
+      [1.2985455603042908, 103.84873112555971],
+      [1.2987276549506674, 103.84839719960598],
+      [1.2986138457988972, 103.84702354965799],
+      [1.2993648792682961, 103.84483388505743],
+    ],
+  },
+  {
+    id: "zone-1",
+    name: "Zone 1",
+    color: "#8b5cf6", // purple
+    coordinates: [
+      [1.29075583664374, 103.85033121238598],
+      [1.2917852375736203, 103.8509292797736],
+      [1.2909839075441738, 103.85240903413245],
+      [1.292720005703373, 103.85342457463878],
+      [1.292524318647878, 103.85380299924702],
+      [1.293907173516189, 103.85465119233163],
+      [1.2959182387171495, 103.8520003004873],
+      [1.2966726068331837, 103.85108639092613],
+      [1.2956792773409234, 103.850266215678],
+      [1.2934208569526078, 103.84892581498616],
+      [1.291843176488996, 103.84811276448846],
+      [1.29075583664374, 103.85033121238598],
+    ],
+  },
+  {
+    id: "zone-2",
+    name: "Zone 2",
+    color: "#ef4444", // red
+    coordinates: [
+      [1.3017490366474078, 103.84515942042822],
+      [1.2996844744822766, 103.84425044222189],
+      [1.2987265549272848, 103.84695155745453],
+      [1.2987431035643056, 103.84757462725133],
+      [1.298804314339847, 103.84818132625219],
+      [1.2985984235432113, 103.84879915734655],
+      [1.2960275694945125, 103.85193840722656],
+      [1.2984878185050235, 103.85388111559178],
+      [1.3003915067468341, 103.85158272524166],
+      [1.3017157638642942, 103.8495192801729],
+      [1.2998990692498182, 103.84886696528002],
+      [1.2999922331076732, 103.84793508686141],
+      [1.3001120152060253, 103.84637086237257],
+      [1.3017490366474078, 103.84515942042822],
+    ],
+  },
+  {
+    id: "zone-3",
+    name: "Zone 3",
+    color: "#10b981", // green
+    coordinates: [
+      [1.30302876121128, 103.85002182828703],
+      [1.3016852884288141, 103.85005975539013],
+      [1.3004820705047848, 103.85179395952912],
+      [1.2985145416008805, 103.854181203356],
+      [1.2983779424938149, 103.85407872771208],
+      [1.2968412020312172, 103.85283383841295],
+      [1.2961202617404695, 103.85385100405972],
+      [1.299802617398015, 103.85660833070921],
+      [1.3014976882020761, 103.85504504519042],
+      [1.3029981397597368, 103.85373563956455],
+      [1.3036029133493656, 103.85287801716669],
+      [1.302952207582436, 103.85240326191075],
+      [1.303534015098947, 103.85146906608412],
+      [1.302783789591345, 103.85083350662774],
+      [1.30302876121128, 103.85002182828703],
+    ],
   },
 ];
 

@@ -1,23 +1,41 @@
 @import "tailwindcss";
 
 @theme {
-  /* Variable */
-  --main-brown:#70341E;
-  --main-cream:#FBE5C0;
-  --main-yellow:#FFC83D;
-  --secondary: #424242;
+  /* Variable - Night Festival Theme */
+  --main-dark: #0A0A14;
+  --main-dark-secondary: #16162A;
+  --main-accent: #FF6B6B;
+  --main-accent-secondary: #4ECDC4;
+  --main-gold: #FFD93D;
+  --main-light: #FFFFFF;
+  --main-muted: #9CA3AF;
 
-    /* fonts */
+  /* Legacy color aliases for compatibility */
+  --main-brown: #0A0A14;
+  --main-cream: #16162A;
+  --main-yellow: #FF6B6B;
+  --secondary: #E5E5E5;
+
+  /* fonts */
   --font-averia: 'Averia Libre', "Arial", sans-serif;
   --font-poppins: "Poppins", "Arial", sans-serif;
   --font-caveat: "Caveat", "Arial", sans-serif;
-  --font-source-sans:"Source Sans 3", "Arial", sans-serif;
+  --font-source-sans: "Source Sans 3", "Arial", sans-serif;
 
   /* colors */
-  --color-main-brown:var(--main-brown);
-  --color-main-cream:var(--main-cream);
-  --color-main-yellow:var(--main-yellow);
-  --color-secondary:var(--secondary);
+  --color-main-dark: var(--main-dark);
+  --color-main-dark-secondary: var(--main-dark-secondary);
+  --color-main-accent: var(--main-accent);
+  --color-main-accent-secondary: var(--main-accent-secondary);
+  --color-main-gold: var(--main-gold);
+  --color-main-light: var(--main-light);
+  --color-main-muted: var(--main-muted);
+
+  /* Legacy compatibility */
+  --color-main-brown: var(--main-dark);
+  --color-main-cream: var(--main-dark-secondary);
+  --color-main-yellow: var(--main-accent);
+  --color-secondary: var(--secondary);
 }
 
 /* @font-face {
@@ -44,7 +62,7 @@
 
 @layer base {
     body {
-        @apply font-poppins font-normal bg-main-brown overflow-hidden
+        @apply font-poppins font-normal bg-main-dark text-main-light overflow-hidden
     }
 }
     .hovered {
@@ -53,34 +71,34 @@
 /* Swiper custom styles */
 .swiper-button-next,
 .swiper-button-prev {
-  color: var(--main-brown) !important;
+  color: var(--main-accent) !important;
 }
 
 .swiper-pagination-bullet {
-  background-color: var(--main-brown) !important;
+  background-color: var(--main-muted) !important;
 }
 
 .swiper-pagination-bullet-active {
-  background-color: var(--main-brown) !important;
+  background-color: var(--main-accent) !important;
 }
 
 /* Leaflet Custom */
 .leaflet-container {
-  @apply bg-main-cream!
+  @apply bg-transparent!
 }
 
 .paper-line {
-  @apply h-12 w-full px-5 text-secondary border-b border-black/20 flex items-center;
+  @apply h-12 w-full px-5 text-main-light border-b border-white/20 flex items-center;
 }
 .paper-text {
-  @apply h-12 w-full px-5 text-secondary flex items-start leading-[45px];
+  @apply h-12 w-full px-5 text-main-light flex items-start leading-[45px];
 }
 .paper-text > span {
-  @apply text-[#A74109];
+  @apply text-main-accent;
 }
 
 .custom-shadow {
-  box-shadow:16px 17px 18px rgba(117, 71, 62, 0.40) ;
+  box-shadow: 16px 17px 18px rgba(0, 0, 0, 0.50);
 }
 
 /* Custom Scrollbar */
@@ -88,22 +106,20 @@
 ::-webkit-scrollbar {
   width: 10px;
   border-radius: 200px;
-  
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #f1f1f178;
+  background: rgba(255, 255, 255, 0.1);
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: var(--main-brown);
-    border-radius: 200px;
-
+  background: var(--main-accent);
+  border-radius: 200px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #4f2516;
+  background: var(--main-accent-secondary);
 }

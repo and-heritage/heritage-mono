@@ -8,10 +8,10 @@
 </script>
 
 <div class={`w-full py-3 px-5 rounded-lg text-[18px] cursor-pointer hovered
-    ${type === "correct" ? "bg-[#098E42] text-white" : type === "wrong" ? "bg-[#E63946] text-white" : "bg-white text-main-brown hover:bg-main-brown hover:text-white "}
+    ${type === "correct" ? "bg-[#098E42] text-white" : type === "wrong" ? "bg-[#E63946] text-white" : "bg-white/10 text-white border border-white/20 hover:bg-main-accent hover:text-white hover:border-main-accent"}
     `}>
-    A. 
-    {text}  
+    A.
+    {text}
 
 
 </div>

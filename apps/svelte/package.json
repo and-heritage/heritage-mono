@@ -32,6 +32,7 @@
     "@sveltejs/adapter-auto": "^7.0.1",
     "aos": "^2.3.4",
     "leaflet": "^1.9.4",
+    "leaflet-routing-machine": "^3.2.12",
     "swiper": "^12.1.0"
   }
 }

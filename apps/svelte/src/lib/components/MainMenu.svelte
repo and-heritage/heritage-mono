@@ -10,35 +10,29 @@
 {#if menuState.isOpen}
   <div
     transition:fade={{ duration: 400 }}
-    class="fixed z-[999999999999] top-0 right-0 size-full bg-[#290E08]/70 flex flex-row-reverse backdrop-blur-lg"
+    class="fixed z-[999999999999] top-0 right-0 size-full bg-[#0A0A14]/80 flex flex-row-reverse backdrop-blur-lg"
   >
     <div
       transition:fly={{ duration: 300, x: 200 }}
-      class="w-full h-full bg-white/50 relative md:w-1/2"
-      style="background-image: url('/assets/images/landing/landing.png')"
+      class="w-full h-full bg-main-dark-secondary/95 relative md:w-1/2"
     >
-      <img
-        class="absolute hidden h-full w-[4vw] -left-[2vw] md:block "
-        src="/assets/images/ripped_paper.png"
-        alt=""
-      />
+      <!-- Night-themed side accent -->
+      <div
+        class="absolute hidden h-full w-1 -left-0 md:block bg-gradient-to-b from-main-accent via-main-accent-secondary to-main-gold"
+      ></div>
       <div class="flex flex-col h-full justify-between px-[20px] py-5 gap-5 md:py-[50px] md:px-[60px]" >
         <div class="w-full flex justify-between md:justify-end " >
           <img
             class=" block h-full w-30 md:hidden"
-            src="/assets/images/sglaw.svg"
-            alt=""
+            src="/assets/images/snf-logo.svg"
+            alt="Singapore Night Festival"
           />
           <MainButton square onclick={() => menuState.close()} color="white">
             <span class="material-symbols-outlined"> close </span>
           </MainButton>
         </div>
         <div class="flex flex-col gap-2 font-averia text-[36px] md:text-[50px] md:gap-5 ">
-          <MainMenuItem no="01" text="EXPLORE TRAIL" href="/explore" />
-          <MainMenuItem no="02" text="GUIDED TOUR" href="/guided-tour" />
-          <MainMenuItem no="03" text="ROVING EXHIBITION" href="/roving-exhibition" />
-          <MainMenuItem no="04" text="STUDENT COMPETITION" href="/student-competition" />
-          <MainMenuItem no="05" text="QUIZ" href="/quiz" />
+          <MainMenuItem no="01" text="EXPLORE TRAIL" href="/" />
         </div>
         <!-- footer -->
         <div class="text-white w-full flex flex-col gap-10 flex-wrap mt-5 md:flex-row" >

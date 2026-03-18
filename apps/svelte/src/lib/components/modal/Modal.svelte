@@ -20,8 +20,8 @@
 
 <svelte:window onkeydown={handleKeydown} />
 
-<div 
-    class="fixed w-screen h-[70%] z-11 flex items justify-  bg-[#F6EFE5] bg-[url('/assets/images/site-detail/detailed_site_bg_1.png')] flex-col bg-cover p-4 pt-0 overflow-y-auto"
+<div
+    class="fixed w-screen h-[70%] z-11 flex items justify- bg-main-dark-secondary flex-col p-4 pt-0 overflow-y-auto border-t border-main-accent/20"
     in:fly={{ y: 20, duration: 400 }}
     out:fly={{ y: 20, duration: 400 }}
 >
