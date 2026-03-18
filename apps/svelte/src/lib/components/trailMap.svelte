@@ -488,7 +488,8 @@
     Feedback
   </button>
 
-  <!-- Zone Legend -->
+  <!-- Zone Legend (hidden when wayfinding mode is active) -->
+  {#if !wayfindingMode}
   <div class="absolute top-[110px] left-[30px] z-[400] bg-main-dark-secondary/95 backdrop-blur-md rounded-xl shadow-lg border border-main-accent/20 p-4">
     <h3 class="text-sm font-semibold text-white mb-3 flex items-center gap-2">
       <span class="material-symbols-outlined text-lg">map</span>
@@ -516,6 +517,7 @@
       {/each}
     </div>
   </div>
+  {/if}
 
   <!-- Wayfinding Panel -->
   {#if wayfindingMode}
