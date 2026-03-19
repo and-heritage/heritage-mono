@@ -4,7 +4,7 @@ export const locations = [
     id: 1,
     name: "Sky Castle",
     subname: "by ENESS",
-    coords: [1.2996, 103.8484], // Cathay Green
+    coords: [1.2984997727958, 103.847468258282], // Cathay Green (Handy Road area)
     category: "Highlight Experiences",
     venue: "Cathay Green",
     description: "An immersive light installation experience at Cathay Green.",
@@ -13,7 +13,7 @@ export const locations = [
     id: 2,
     name: "Kampong Chill",
     subname: "by YOK & SHERYO",
-    coords: [1.2905, 103.8525], // Capitol Singapore
+    coords: [1.29298775382221, 103.851046829843], // Capitol Singapore
     category: "Highlight Experiences",
     venue: "Capitol Singapore",
     description: "A vibrant artistic experience at Capitol Singapore.",
@@ -23,7 +23,7 @@ export const locations = [
     id: 3,
     name: "MOSAIC",
     subname: "by JÉRÉMIE BELLOT, ENA ENO, JOSSELIN FOUCHÉ",
-    coords: [1.2927, 103.8487], // National Museum of Singapore
+    coords: [1.29671990674531, 103.848510920277], // National Museum of Singapore
     category: "Projection Mapping",
     venue: "National Museum of Singapore",
     description: "Stunning projection mapping on the iconic National Museum facade.",
@@ -32,7 +32,7 @@ export const locations = [
     id: 4,
     name: "Island Waters",
     subname: "by KANGLI",
-    coords: [1.2952, 103.8521], // CHIJMES
+    coords: [1.29479670956332, 103.852573366033], // CHIJMES
     category: "Projection Mapping",
     venue: "CHIJMES",
     description: "A captivating water-themed projection at CHIJMES.",
@@ -41,7 +41,7 @@ export const locations = [
     id: 5,
     name: "Roadside beauties and healing remedies",
     subname: "by ADELINE KUEH",
-    coords: [1.2954, 103.8519], // CHIJMES
+    coords: [1.29489670956332, 103.852473366033], // CHIJMES
     category: "Projection Mapping",
     venue: "CHIJMES",
     description: "An exploration of traditional healing through projection art.",
@@ -50,7 +50,7 @@ export const locations = [
     id: 6,
     name: "Dari Pulau Ke Pulau (From One Island to Another)",
     subname: "by HAFI",
-    coords: [1.2950, 103.8523], // CHIJMES
+    coords: [1.29469670956332, 103.852673366033], // CHIJMES
     category: "Projection Mapping",
     venue: "CHIJMES",
     description: "A journey between islands told through light and projection.",
@@ -59,7 +59,7 @@ export const locations = [
     id: 7,
     name: "Awakening",
     subname: "by TORORO.AOI",
-    coords: [1.2956, 103.8517], // CHIJMES
+    coords: [1.29499670956332, 103.852373366033], // CHIJMES
     category: "Projection Mapping",
     venue: "CHIJMES",
     description: "An awakening of the senses through visual art.",
@@ -68,7 +68,7 @@ export const locations = [
     id: 8,
     name: "ALIGHT Across the SEA",
     subname: "Presented as part of ALIGHT Conference",
-    coords: [1.2983, 103.8507], // Waterloo Centre Artspace
+    coords: [1.29869445251522, 103.852082013485], // Waterloo Centre
     category: "Projection Mapping",
     venue: "Waterloo Centre Artspace",
     description: "A collaborative projection mapping experience.",
@@ -78,7 +78,7 @@ export const locations = [
     id: 9,
     name: "CYBERSWORDFISH V2.0",
     subname: "by YANG DERONG",
-    coords: [1.3006, 103.8451], // Plaza Singapura
+    coords: [1.30074770963916, 103.845047573431], // Plaza Singapura
     category: "Night Lights",
     venue: "Plaza Singapura",
     description: "A futuristic light installation at Plaza Singapura.",
@@ -87,7 +87,7 @@ export const locations = [
     id: 10,
     name: "Jiwa Laut",
     subname: "by KAI TING AND BOON",
-    coords: [1.2942, 103.8493], // Armenian Street
+    coords: [1.29374597225303, 103.849124043646], // Armenian Street
     category: "Night Lights",
     venue: "Armenian Street",
     description: "Soul of the sea - an oceanic light experience.",
@@ -96,7 +96,7 @@ export const locations = [
     id: 11,
     name: "KU a Dreamer",
     subname: "by TÜNG MONKEY",
-    coords: [1.2915, 103.8499], // Funan Kinetic Wall
+    coords: [1.29134759697794, 103.849989790085], // Funan
     category: "Night Lights",
     venue: "Funan Kinetic Wall",
     description: "A dreamy installation on Funan's kinetic wall.",
@@ -105,7 +105,7 @@ export const locations = [
     id: 12,
     name: "Skygazers: Dreaming Into the Past and Future",
     subname: "by SPACE OBJEKT X REZA HASNI",
-    coords: [1.2939, 103.8492], // Peranakan Museum
+    coords: [1.29428253752506, 103.849094674315], // Peranakan Museum
     category: "Night Lights",
     venue: "Peranakan Museum",
     description: "A celestial journey through time at Peranakan Museum.",
@@ -114,7 +114,7 @@ export const locations = [
     id: 13,
     name: "Two Sides of Our Island",
     subname: "by LABSIXFIVE",
-    coords: [1.2935, 103.8535], // Raffles City
+    coords: [1.29389357863312, 103.853119904656], // Raffles City Shopping Centre
     category: "Night Lights",
     venue: "Raffles City",
     description: "Exploring duality through light at Raffles City.",
@@ -123,7 +123,7 @@ export const locations = [
     id: 14,
     name: "UTOPIA",
     subname: "by JAHAN LOH",
-    coords: [1.2971, 103.8543], // National Design Centre
+    coords: [1.29847943603692, 103.853501293482], // National Design Centre
     category: "Night Lights",
     venue: "National Design Centre",
     description: "A utopian vision at the National Design Centre.",
@@ -132,7 +132,7 @@ export const locations = [
     id: 15,
     name: "Waves of Time: Splash On Our Skyline",
     subname: "by MAEQZTER",
-    coords: [1.2993, 103.8547], // Bugis+
+    coords: [1.29960368990297, 103.854242347489], // Bugis+
     category: "Night Lights",
     venue: "Bugis+",
     description: "Temporal waves splashing across the Bugis skyline.",
@@ -141,7 +141,7 @@ export const locations = [
     id: 16,
     name: "The Garden of Stories",
     subname: "by YANG JIE",
-    coords: [1.2965, 103.8498], // Stamford Arts Centre
+    coords: [1.30016968504677, 103.852997351658], // Stamford Arts Centre
     category: "Night Lights",
     venue: "Stamford Arts Centre",
     description: "A garden of narratives in light.",
@@ -151,7 +151,7 @@ export const locations = [
     id: 17,
     name: "Paradise Island",
     subname: "Festival Village",
-    coords: [1.2945, 103.8490], // Armenian Street
+    coords: [1.29374597225303, 103.849124043646], // Armenian Street
     category: "Festival Villages",
     venue: "Armenian Street",
     description: "A festive village experience on Armenian Street.",
@@ -160,7 +160,7 @@ export const locations = [
     id: 18,
     name: "Retro District",
     subname: "Festival Village",
-    coords: [1.2998, 103.8556], // Bugis Street Art Lane
+    coords: [1.30067380210192, 103.85483094344], // Bugis Street
     category: "Festival Villages",
     venue: "Bugis Street Art Lane",
     description: "Step back in time at the Retro District.",
@@ -169,7 +169,7 @@ export const locations = [
     id: 19,
     name: "SMU Arts Fest: 2560",
     subname: "Festival Village",
-    coords: [1.2958, 103.8502], // SMU Campus Green
+    coords: [1.29684671398423, 103.852207943172], // SMU
     category: "Festival Villages",
     venue: "SMU Campus Green",
     description: "Arts festival at SMU Campus Green.",
@@ -179,7 +179,7 @@ export const locations = [
     id: 20,
     name: "Nila's Shimmering Shores",
     subname: "An Immersive Story Room Adventure",
-    coords: [1.2891, 103.8441], // Children's Museum Singapore
+    coords: [1.29284454030617, 103.848704598015], // Children's Museum Singapore
     category: "Performances",
     venue: "Children's Museum Singapore",
     description: "An immersive story room adventure for all ages.",
@@ -188,7 +188,7 @@ export const locations = [
     id: 21,
     name: "The Island Dreamer",
     subname: "A Wander Wonder Experience",
-    coords: [1.2975, 103.8530], // Various Locations - Bras Basah.Bugis
+    coords: [1.29686168649656, 103.850667371637], // Bras Basah area
     category: "Performances",
     venue: "Various Locations, Bras Basah.Bugis",
     description: "A wandering wonder experience across the district.",
@@ -197,7 +197,7 @@ export const locations = [
     id: 22,
     name: "Shadow Puppetry Bayang Series: Legends of Southeast Asia",
     subname: "Traditional Performance",
-    coords: [1.2930, 103.8485], // National Museum of Singapore
+    coords: [1.29671990674531, 103.848510920277], // National Museum of Singapore
     category: "Performances",
     venue: "National Museum of Singapore",
     description: "Traditional shadow puppetry showcasing Southeast Asian legends.",
@@ -206,7 +206,7 @@ export const locations = [
     id: 23,
     name: "Fortune Hands by P7:1SMA",
     subname: "Part of Waterloo Street Stories",
-    coords: [1.2978, 103.8512], // Objectifs Courtyard
+    coords: [1.29965755929059, 103.852080535349], // Objectifs (155 Middle Road)
     category: "Performances",
     venue: "Objectifs Courtyard",
     description: "An artistic performance at Objectifs Courtyard.",
@@ -215,7 +215,7 @@ export const locations = [
     id: 24,
     name: "The Tiger Hero《武松打虎》",
     subname: "Traditional Performance",
-    coords: [1.2888, 103.8518], // National Archives of Singapore
+    coords: [1.29296733005703, 103.848299538922], // National Archives of Singapore
     category: "Performances",
     venue: "National Archives of Singapore",
     description: "Classic Chinese opera performance.",
@@ -224,7 +224,7 @@ export const locations = [
     id: 25,
     name: "INterSPACE",
     subname: "Immersive Experience",
-    coords: [1.2969, 103.8528], // NAFA Campus 1 Foyer
+    coords: [1.30003103413786, 103.851653495336], // NAFA
     category: "Performances",
     venue: "NAFA Campus 1 Foyer",
     description: "An inter-dimensional space experience at NAFA.",
@@ -233,7 +233,7 @@ export const locations = [
     id: 26,
     name: "The Monkey King and the Uproar in the Dragon Palace",
     subname: "《大闹龙宫》(南洋版)",
-    coords: [1.2890, 103.8520], // National Archives of Singapore
+    coords: [1.29296733005703, 103.848299538922], // National Archives of Singapore
     category: "Performances",
     venue: "National Archives of Singapore",
     description: "Nanyang edition of the classic Monkey King tale.",
@@ -242,7 +242,7 @@ export const locations = [
     id: 27,
     name: "Our Songs, Our Stories",
     subname: "A Community Singalong of Xinyao and Folk Music",
-    coords: [1.2968, 103.8538], // Bras Basah Complex
+    coords: [1.29681525928856, 103.853619482206], // Bras Basah Complex
     category: "Performances",
     venue: "Bras Basah Complex",
     description: "Community singalong featuring Xinyao and folk music.",
@@ -252,7 +252,7 @@ export const locations = [
     id: 28,
     name: "A Date With Tradition",
     subname: "Cultural Experience",
-    coords: [1.2963, 103.8496], // Stamford Arts Centre
+    coords: [1.30006968504677, 103.852897351658], // Stamford Arts Centre
     category: "Experiential Programmes",
     venue: "Stamford Arts Centre",
     description: "Experience traditional arts and culture.",
@@ -261,7 +261,7 @@ export const locations = [
     id: 29,
     name: "All Things Singapore (AT SG) 2025",
     subname: "Exhibition",
-    coords: [1.2975, 103.8543], // National Library Building
+    coords: [1.29756762807471, 103.854253620554], // National Library Building
     category: "Experiential Programmes",
     venue: "National Library Building & National Archives",
     description: "Celebrating all things Singapore.",
@@ -270,7 +270,7 @@ export const locations = [
     id: 30,
     name: "Echoes of the Bay: VR Narratives from Singapore's Shores",
     subname: "Virtual Reality Experience",
-    coords: [1.2984, 103.8528], // LASALLE College of the Arts
+    coords: [1.30285513520934, 103.851555423118], // LASALLE College of the Arts
     category: "Experiential Programmes",
     venue: "LASALLE College of the Arts",
     description: "VR narratives exploring Singapore's coastal heritage.",
@@ -279,7 +279,7 @@ export const locations = [
     id: 31,
     name: "Festival at the Fort 2025: Whispers of a Fort",
     subname: "Heritage Experience",
-    coords: [1.2915, 103.8465], // Fort Canning Park
+    coords: [1.292516286813, 103.847681827019], // Fort Canning Park
     category: "Experiential Programmes",
     venue: "Fort Canning Park",
     description: "Discover the whispers of history at Fort Canning.",
@@ -288,7 +288,7 @@ export const locations = [
     id: 32,
     name: "Light on the Hill - Island Celebrations",
     subname: "Light Experience",
-    coords: [1.2945, 103.8456], // Wesley Methodist Church
+    coords: [1.29706766410841, 103.847503207824], // Wesley Methodist Church
     category: "Experiential Programmes",
     venue: "Wesley Methodist Church",
     description: "Celebrating light on the historic hill.",
@@ -297,7 +297,7 @@ export const locations = [
     id: 33,
     name: "Open House at Children's Museum Singapore",
     subname: "Family Experience",
-    coords: [1.2889, 103.8439], // Children's Museum Singapore
+    coords: [1.29284454030617, 103.848704598015], // Children's Museum Singapore
     category: "Experiential Programmes",
     venue: "Children's Museum Singapore",
     description: "Open house at the Children's Museum.",
@@ -306,7 +306,7 @@ export const locations = [
     id: 34,
     name: "Sound Plot Audio Plays Series by Centre 42",
     subname: "Part of Waterloo Street Stories",
-    coords: [1.2967, 103.8500], // Stamford Arts Centre
+    coords: [1.30026968504677, 103.853097351658], // Stamford Arts Centre
     category: "Experiential Programmes",
     venue: "Stamford Arts Centre",
     description: "Audio plays exploring local stories.",
@@ -315,7 +315,7 @@ export const locations = [
     id: 35,
     name: "The Listening Biennial, Third Edition",
     subname: "Sound Art Exhibition",
-    coords: [1.2980, 103.8505], // Waterloo Street
+    coords: [1.29882498912182, 103.851037131373], // Waterloo Street
     category: "Experiential Programmes",
     venue: "Various Locations, Waterloo Street",
     description: "Third edition of the sound art biennial.",
@@ -324,7 +324,7 @@ export const locations = [
     id: 36,
     name: "The Old Waterloo Hauntings",
     subname: "Heritage Tour",
-    coords: [1.2985, 103.8508], // Waterloo Street
+    coords: [1.29892498912182, 103.851137131373], // Waterloo Street
     category: "Experiential Programmes",
     venue: "Waterloo Street",
     description: "Discover the haunting tales of old Waterloo.",
@@ -333,7 +333,7 @@ export const locations = [
     id: 37,
     name: "Familiar Strangers by SMU-ACM",
     subname: "Part of Waterloo Street Stories",
-    coords: [1.2961, 103.8494], // Stamford Arts Centre
+    coords: [1.29996968504677, 103.852797351658], // Stamford Arts Centre
     category: "Experiential Programmes",
     venue: "Stamford Arts Centre",
     description: "An exploration of familiar strangers in our midst.",
@@ -342,7 +342,7 @@ export const locations = [
     id: 38,
     name: "For Real Fest",
     subname: "Festival",
-    coords: [1.2913, 103.8501], // Funan
+    coords: [1.29134759697794, 103.849989790085], // Funan
     category: "Experiential Programmes",
     venue: "Funan",
     description: "For Real Fest at Funan.",
@@ -351,7 +351,7 @@ export const locations = [
     id: 39,
     name: "Outdoor Photo Exhibition by Objectifs",
     subname: "Part of Waterloo Street Stories",
-    coords: [1.2976, 103.8510], // Objectifs Courtyard
+    coords: [1.29975755929059, 103.852180535349], // Objectifs (155 Middle Road)
     category: "Experiential Programmes",
     venue: "Objectifs Courtyard",
     description: "Outdoor photography exhibition.",
@@ -361,7 +361,7 @@ export const locations = [
     id: 40,
     name: "A River Reborn",
     subname: "National Day Activation",
-    coords: [1.2905, 103.8485], // Stamford Walkway
+    coords: [1.2935414355709, 103.851569286784], // Stamford Road
     category: "National Day Activations",
     venue: "Stamford Walkway",
     description: "Celebrating the rebirth of our river.",
@@ -370,7 +370,7 @@ export const locations = [
     id: 41,
     name: "Fortune Food Paradise",
     subname: "National Day Activation",
-    coords: [1.2979, 103.8539], // Fortune Centre
+    coords: [1.30042241913975, 103.852286627386], // Fortune Centre
     category: "National Day Activations",
     venue: "Fortune Centre's Digital Billboard",
     description: "A food paradise celebration.",
@@ -379,7 +379,7 @@ export const locations = [
     id: 42,
     name: "Island of Stars",
     subname: "National Day Activation",
-    coords: [1.2998, 103.8486], // The Cathay
+    coords: [1.29920609145429, 103.847826817241], // The Cathay
     category: "National Day Activations",
     venue: "The Cathay",
     description: "An island of stars at The Cathay.",
@@ -388,7 +388,7 @@ export const locations = [
     id: 43,
     name: "Lepak by the River",
     subname: "National Day Activation",
-    coords: [1.2962, 103.8542], // Bras Basah MRT Station
+    coords: [1.29686168649656, 103.850667371637], // Bras Basah MRT Station
     category: "National Day Activations",
     venue: "Reflection Pool @ Bras Basah MRT Station",
     description: "Relax by the river reflection pool.",
@@ -397,7 +397,7 @@ export const locations = [
     id: 44,
     name: "Paradise of Play",
     subname: "National Day Activation",
-    coords: [1.2987, 103.8533], // Ten Square
+    coords: [1.29711316857746, 103.85196484973], // Queen Street (Ten Square area)
     category: "National Day Activations",
     venue: "Ten Square's Digital Billboard",
     description: "A paradise of play for everyone.",
@@ -406,7 +406,7 @@ export const locations = [
     id: 45,
     name: "Songs of Nutmeg trees",
     subname: "National Day Activation",
-    coords: [1.3002, 103.8537], // St. Joseph's Church
+    coords: [1.29837890152557, 103.853129401621], // St. Joseph's Church
     category: "National Day Activations",
     venue: "St. Joseph's Church",
     description: "Musical celebration at St. Joseph's Church.",
